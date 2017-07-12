@@ -17,6 +17,8 @@
 		3511964A1F16A09D00B1F9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351196481F16A09D00B1F9CC /* LaunchScreen.storyboard */; };
 		351196551F16A09D00B1F9CC /* Hoppy_BunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351196541F16A09D00B1F9CC /* Hoppy_BunnyTests.swift */; };
 		351196601F16A09D00B1F9CC /* Hoppy_BunnyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511965F1F16A09D00B1F9CC /* Hoppy_BunnyUITests.swift */; };
+		351196721F16C19F00B1F9CC /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = 351196711F16C19F00B1F9CC /* Hero.sks */; };
+		351196741F16D7A000B1F9CC /* CGFloat+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351196731F16D7A000B1F9CC /* CGFloat+Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		3511965B1F16A09D00B1F9CC /* Hoppy BunnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hoppy BunnyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3511965F1F16A09D00B1F9CC /* Hoppy_BunnyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hoppy_BunnyUITests.swift; sourceTree = "<group>"; };
 		351196611F16A09D00B1F9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351196711F16C19F00B1F9CC /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
+		351196731F16D7A000B1F9CC /* CGFloat+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extentions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +107,12 @@
 		351196381F16A09C00B1F9CC /* Hoppy Bunny */ = {
 			isa = PBXGroup;
 			children = (
+				351196711F16C19F00B1F9CC /* Hero.sks */,
 				351196391F16A09D00B1F9CC /* AppDelegate.swift */,
 				3511963B1F16A09D00B1F9CC /* GameScene.sks */,
 				3511963D1F16A09D00B1F9CC /* Actions.sks */,
 				3511963F1F16A09D00B1F9CC /* GameScene.swift */,
+				351196731F16D7A000B1F9CC /* CGFloat+Extentions.swift */,
 				351196411F16A09D00B1F9CC /* GameViewController.swift */,
 				351196431F16A09D00B1F9CC /* Main.storyboard */,
 				351196461F16A09D00B1F9CC /* Assets.xcassets */,
@@ -245,6 +251,7 @@
 				3511963C1F16A09D00B1F9CC /* GameScene.sks in Resources */,
 				351196471F16A09D00B1F9CC /* Assets.xcassets in Resources */,
 				3511964A1F16A09D00B1F9CC /* LaunchScreen.storyboard in Resources */,
+				351196721F16C19F00B1F9CC /* Hero.sks in Resources */,
 				3511963E1F16A09D00B1F9CC /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +280,7 @@
 				351196401F16A09D00B1F9CC /* GameScene.swift in Sources */,
 				351196421F16A09D00B1F9CC /* GameViewController.swift in Sources */,
 				3511963A1F16A09D00B1F9CC /* AppDelegate.swift in Sources */,
+				351196741F16D7A000B1F9CC /* CGFloat+Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
